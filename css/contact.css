@@ -2,11 +2,6 @@
   background-color: #fafafa;
 }
 
-.form-group input {
-  /* display: block; */
-  /* box-sizing: border-box; */
-}
-
 .contact-form-container {
   /* display: flex; */
   justify-content: center;
@@ -66,6 +61,7 @@
   margin: 20px 0 0 20px;
   padding: 10px;
   font-size: 17px;
+  border-radius: 20px;
 }
 
 .bottom-txt {
@@ -81,4 +77,16 @@
   top: 8px;
   color: red;
   font-size: 27px;
+}
+
+.line {
+  float: left;
+  width: 100%;
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+
+.clear {
+  clear: both;
+  height: 0;
 }
